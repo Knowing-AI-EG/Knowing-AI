@@ -52,4 +52,5 @@ Founder & CEO of Knowing.AI
 
 ## 📃 License
 
-All rights reserved. Not for public distribution.
+© 2025 Knowing.AI. All rights reserved.  
+Unauthorized use, reproduction, or distribution is prohibited.
