@@ -1,0 +1,12 @@
+  ```jsx
+  import { Text, View } from 'react-native';
+  
+  export default function App() {
+    return (
+      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: 'black' }}>
+        <Text style={{ fontSize: 24, color: 'white', fontWeight: 'bold' }}>🤖 KNOWING.AI MOBILE!</Text>
+        <Text style={{ color: 'gray', marginTop: 10 }}>Your AI companion is loading...</Text>
+      </View>
+    );
+  }
+  ```
