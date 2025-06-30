@@ -1,15 +1,11 @@
-   ```jsx
-   // apps/web/index.js
-   export default function Home() {
-     return (
-       <div className="min-h-screen bg-black text-white">
-         <h1 className="text-4xl font-bold text-center pt-20">
-           🔥 KNOWING.AI IS LIVE!
-         </h1>
-         <p className="text-center mt-4">
-           Unbeatable AI solutions coming soon...
-         </p>
-       </div>
-     )
-   }
-   ```
+// apps/mobile/App.js
+import { Text, View } from 'react-native';
+
+export default function App() {
+  return (
+    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: 'black' }}>
+      <Text style={{ fontSize: 24, color: 'white', fontWeight: 'bold' }}>🤖 KNOWING.AI MOBILE!</Text>
+      <Text style={{ color: 'gray', marginTop: 10 }}>Your AI companion is loading...</Text>
+    </View>
+  );
+}
