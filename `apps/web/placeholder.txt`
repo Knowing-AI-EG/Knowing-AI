@@ -1,1 +1,13 @@
-`Website will live here`
+// apps/web/index.js
+export default function Home() {
+  return (
+    <div className="min-h-screen bg-black text-white">
+      <h1 className="text-4xl font-bold text-center pt-20">
+        🔥 KNOWING.AI IS LIVE!
+      </h1>
+      <p className="text-center mt-4">
+        Unbeatable AI solutions coming soon...
+      </p>
+    </div>
+  )
+}
